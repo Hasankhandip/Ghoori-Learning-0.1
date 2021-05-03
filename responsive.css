@@ -1,0 +1,266 @@
+@media (max-width: 450px){
+    .header-section{
+        max-width: 380px;
+    }
+    .nav-item ul{
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        z-index: 1;
+    }
+    /* .hdr-phn{
+        display: none;
+    } */
+    .hdr-search{
+        display: none;
+    }
+    .hdr-phn{
+        margin: 0 0 10px 0;
+    }
+    /* .log-sing{
+        display: none  !important;
+    } */
+    .main-logo img {
+        width: 150px;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+    .banner-section {
+        height: 50vh;
+        min-height: 0;
+    }
+    .banner-text h1 {
+        font-size: 24px;
+    }
+    .banner-text {
+        top: 23%;
+        left: 4%;
+    }
+    .banner-text h6 {
+        margin-bottom: 60px;
+        line-height: 30px;
+        padding-right: 25px;
+        font-size: 17px;
+    }
+    .banner-text a {
+        padding: 12px 15px;
+        font-size: 15px;
+    }
+    .course-title-section .container {
+        max-width: 340px;
+    }
+    .title-icon i {
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .title-details h4 {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .title-details {
+        margin-bottom: 25px;
+    }
+    .offer-item{
+        margin-bottom: 60px;
+    }
+    .catagory-section{
+        padding-top: 0;
+    }
+    .offer-item-1 {
+        margin-bottom: 35px;
+    }
+    .ct-text-1 p {
+        font-size: 15px;
+    }
+    .blog-details p {
+        font-size: 13px;
+    }
+    .blog-details p span {
+        font-size: 14px;
+    }
+    .o-icon img {
+        width: 35px;
+        height: 35px;
+    }
+    .mail-item h4 {
+        font-size: 19px;
+    }
+    .mail-item P {
+        font-size: 12px;
+    }
+    .email-box {
+        padding: 14px 10px;
+        font-size: 15px;
+    }
+    .email-btn {
+        top: 5px;
+        right: 10px;
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    .footer-item p {
+        margin-bottom: 5px;
+    }
+    .footer-item ul li a {
+        font-size: 13px;
+    }
+    .footer-item {
+        margin-top: 10px;
+    }
+    .crs-hdr p {
+        padding: 35px 0 20px 10px;
+    }
+    .top-btn a i {
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+    .main-logo {
+        width: 100%;
+    }
+    .mobile-menu span i {
+        position: absolute;
+        left: 94px;
+        top: -23px;
+        font-size: 25px;
+        color: #222;
+        pointer-events: none;
+    }
+    .mobile-menu{
+        display: block !important;
+        position: relative;
+    }
+    .nav-item .mobile-menu-check:checked ~ ul {
+        opacity: 1;
+        visibility: visible;
+        height: 100vh;
+        background: #1c2138;
+        width: 320px;
+        transition: .8s;
+        position: relative;
+        left: -159px;
+        top: 33px;
+    }
+    .drp-dwn{
+        opacity: 100% !important;
+        visibility: visible !important;
+        height: 100% !important;
+        padding: 0 !important;
+        background: #1c2138 !important;
+    }
+    .accordion-button a{
+        color: #70798b !important;
+        background:#1c2138;
+    }
+    .accordion-button {
+        color: #212529;
+        background:#1c2138 !important;
+        border: none;
+        padding:0 25px 0 0;
+    }
+    .accordion-button:focus {
+        z-index: 3;
+        border-color:none;
+        outline: 0;
+        box-shadow:none;
+    }
+    .accordion-body{
+        background:#1c2138 !important;
+        color:#1c2138  !important;
+        padding: 0;
+    }
+    .accordion-item{
+        margin-bottom: -1px;
+        background-color:#1c2138 !important;
+        border: none
+    }
+    .nav-item ul li{
+        display: block;
+        border-top:1px solid #353d5e;
+        width: 100%;
+    }
+    .nav-item ul li a{
+        color: #70798b !important;
+    }
+    .d-item {
+        padding-left:0 !important;
+        position: relative;
+        top: 13px;
+        left: -11px;
+        border-top:1px solid #353d5e !important;
+        border-bottom: none;
+    }
+    .d-2 i{
+        margin-left:20px;
+        font-size: 18px;
+        font-weight: 501;
+    }
+    .accordion-button:not(.collapsed)::after {
+        display: none;
+    }
+    .d-6{
+        display: none;
+        visibility: hidden;
+    }
+    .mobile-menu-check {
+        width: 25px;
+        height: 25px;
+        position: relative;
+        left: 93px;
+        top: 8px;
+        opacity: 0;
+    }
+    .cn-title h6 {
+        font-size: 22px;
+    }
+    .course-details{
+        margin:30px 0 0 0;
+    }
+    .name-price{
+        display:block  !important;
+        margin-top: 20px;
+    }
+    .name-2 h5 {
+        font-size: 14px;
+        margin-bottom: 0;
+        padding: 5px 0;
+    }
+    .name-2 a {
+        font-size: 17px;
+        padding: 5px 0;
+    }
+    .price-2 p {
+        font-size: 14px;
+        padding: 3px 0;
+    }
+    .price-2 h6 {
+        font-size: 13px;
+    }
+    .cnd p {
+        font-size: 12px;
+        line-height: 23px;
+    }
+    .time-2 p {
+        font-size: 14px;
+    }
+}
+
+/* hide er jonne */
+.mobile-menu{
+    display: none;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+	border-bottom-right-radius:none;
+	 border-bottom-left-radius:none;
+}
+.accordion-button:not(.collapsed){
+	color: #0c63e4;
+	background-color:#1c2138 !important;
+	box-shadow:none;
+}
+.d-5{
+    visibility: hidden;
+    display: none;
+    opacity:0;
+}
