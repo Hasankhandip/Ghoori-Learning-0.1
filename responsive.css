@@ -141,6 +141,7 @@
         position: relative;
         left: -159px;
         top: 33px;
+	overflow-y:scroll;
     }
     .drp-dwn{
         opacity: 100% !important;
